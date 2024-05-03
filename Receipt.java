@@ -48,6 +48,7 @@ public class Receipt {
 			for(var i=0;i<itemList.size();i++)
 			{
 				System.out.println(itemList.get(i).name + "\t $" + itemList.get(i).price);
+				System.out.println(itemList.get(i).categoryName);
 			}
 			System.out.println("Total: $\t" + total);
 			if (change > 0)
@@ -75,4 +76,6 @@ public class Receipt {
 	    long tmp = Math.round(value);
 	    return (double) tmp / factor;
 	}
+
+
 }
