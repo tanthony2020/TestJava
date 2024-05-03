@@ -47,6 +47,7 @@ public class CashRegister {
 					System.out.println("********************");
 					System.out.println("UPC: " + item.upc);
 					System.out.println("Product Name: " + item.name);
+					System.out.println("Product Category: " + item.categoryName);
 					System.out.println("Unit Price: $" + item.price);			
 					System.out.println("********************");
 					System.out.println("********************");

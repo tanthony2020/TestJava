@@ -9,4 +9,6 @@ public class Item {
 	public String upc;
 	public String name;
 	public double price;
+	public int categoryID;
+
 }
